@@ -18,7 +18,7 @@ angular.module('starter', ['ionic'])
 
     .state('register', {
       url: '/register',
-      views {
+      views: {
         register: {
           templateUrl: 'templates/register.html'
         }
